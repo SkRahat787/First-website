@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Please fill up the form</h2>
+    </header>
+    <main>
+        <form action="">
+        <section>
+            <label for="name">Name: 
+                <input type="text" placeholder="Your name">
+            </label>
+            <label for="email">Email:
+                <input type="email" placeholder="Your email">
+            </label>
+            <label for="number">Mobile:
+                <input type="text" placeholder="Your phone number">
+            </label>
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="male">
+                    <input type="radio" name="gender" id="male">Male
+                </label>
+                <label for="female">
+                    <input type="radio" name="gender" id="female">Female
+                </label>
+                <label for="others">
+                    <input type="radio" name="gender" id="female">Others
+                </label>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Terms & Conditions</legend>
+                <label for="check"><input type="checkbox">accept</label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instruction</legend>
+                <textarea name="" id="" cols="25" rows="4"></textarea>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
